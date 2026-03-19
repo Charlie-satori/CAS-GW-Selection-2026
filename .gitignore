@@ -12,3 +12,10 @@
 # 忽略 Python 缓存
 __pycache__/
 .ipynb_checkpoints/
+
+
+#设置白名单
+!Task_07/data/*.txt
+!Task_07/data/*.hdf5
+!Task_08/bin/*.ex
+!Task_08/config/Make.defs.local
