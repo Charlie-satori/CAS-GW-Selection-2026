@@ -1,0 +1,14 @@
+# 忽略数据文件
+*.hdf5
+*.h5
+*.dat
+*.out
+
+# 忽略编译生成的可执行文件和对象文件
+*.ex
+*.o
+*.mod
+
+# 忽略 Python 缓存
+__pycache__/
+.ipynb_checkpoints/
