@@ -32,3 +32,4 @@ FFTWINCFLAGS = -I/usr/include
 FFTWLIBFLAGS = -L/usr/lib/x86_64-linux-gnu -lfftw3 -lfftw3_mpi
 #setting lineralgebra lib
 syslibflags = -llapack -lblas
+
