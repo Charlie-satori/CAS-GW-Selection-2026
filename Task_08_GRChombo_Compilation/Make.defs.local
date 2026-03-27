@@ -1,0 +1,33 @@
+#core envs 
+DIM = 3
+DEBUG = FALSE
+OPT = HIGH
+PRECISION = DOUBLE
+MPI = TRUE
+OPENMP = FALSE
+
+#def copliation
+CXX = mpicxx
+FC = gfortran
+MPICXX = mpicxx
+
+#HDF5 PATH
+#/usr/include/hdf5/openmpi/hdf5.h
+#/usr/include/hdf5/openmpi/hdf5_hl.h
+#/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5_hl.a
+#/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5_hl.so
+#/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5_hl_cpp.a
+#/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5_hl_cpp.so
+HDF5_DIR = /usr/lib/x86_64-linux-gnu/hdf5/openmpi
+HDFINCFLAGS = -I/usr/include/hdf5/openmpi
+HDFMPIINCFLAGS = -I/usr/include/hdf5/openmpi
+HDFLIBFLAGS = -L$(HDF5_DIR) -lhdf5 -lz
+HDFMPILIBFLAGS = -L$(HDF5_DIR) -lhdf5 -lz
+
+#FFTW PATH
+#/usr/include/*
+FFTW_DIR = /usr
+FFTWINCFLAGS = -I/usr/include
+FFTWLIBFLAGS = -L/usr/lib/x86_64-linux-gnu -lfftw3 -lfftw3_mpi
+#setting lineralgebra lib
+syslibflags = -llapack -lblas
