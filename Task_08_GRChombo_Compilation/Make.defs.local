@@ -24,6 +24,7 @@ HDFMPIINCFLAGS = -I/usr/include/hdf5/openmpi
 HDFLIBFLAGS = -L$(HDF5_DIR) -lhdf5 -lz
 HDFMPILIBFLAGS = -L$(HDF5_DIR) -lhdf5 -lz
 
+
 #FFTW PATH
 #/usr/include/*
 FFTW_DIR = /usr
