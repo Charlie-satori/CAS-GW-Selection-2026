@@ -1,7 +1,7 @@
 # CAS-GW-Selection-2026
 
 ## 1. Project Directory Structure (Navigation)
-*   [ Task_06_LISA_Sensitivity](./Task_06_LISA_Sensitivity/) - LISA 探测器响应灵敏度
+*   [ Task_06_LISA_Sensitivity](./Task_06_LISA_Response_Sensitivity/) - LISA 探测器响应灵敏度
 *   [ Task_07_GRChombo_Simulation](./Task_07_GRChombo_Simulation/) -基于Docker+GRChombo的双黑洞数值相对论模拟
     *   ├──[ data/](./Task_07_GRChombo_Simulation/data/)
     *   ├──[ params.txt](./Task_07_GRChombo_Simulation/params.txt)
