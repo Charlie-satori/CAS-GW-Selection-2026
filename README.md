@@ -23,6 +23,11 @@
     *   **Video**: 利用hdf5文件生成的双黑洞正向碰撞 Visit 渲染[视频](./Task_09_GRChombo_SimulationOfBinaryBH/video/BBH_Evolution.mp4)
     *   **data**: GRChombo/Examples/BinaryBH/data 文件夹中的[全部内容](./Task_09_GRChombo_SimulationOfBinaryBH/data/)
 ### Task 06: LISA_Sensitivity
+* **灵敏度曲线**：
+
+  TDI-X2.0平均引力波响应作图:![](https://github.com/Charlie-satori/CAS-GW-Selection-2026/blob/main/Task_06_LISA_Response_Sensitivity/Response_Sensitivity/AVG%20GW%20Response%20for%20TDI-X2.0.png)
+
+  LISA灵敏度曲线作图:![](https://github.com/Charlie-satori/CAS-GW-Selection-2026/blob/main/Task_06_LISA_Response_Sensitivity/Response_Sensitivity/LISA_Sensitivity_Curve.png)
 
 ---
 ## 3. Operating Environment
